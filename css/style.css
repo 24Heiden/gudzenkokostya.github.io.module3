@@ -14,6 +14,7 @@ header{
     width: 100%;
     height: 50px;
     background-color: #363636;
+    
 
 }
 div{
@@ -26,6 +27,7 @@ ul.header-nav {
     font-size:0; 
     line-height:0; 
     letter-spacing:-1px; 
+
 }
 li.header-link{
     height: 100%;
@@ -74,8 +76,9 @@ a.href-menu{
     color:black;
 }
 
-img{
-    margin:20px;
+figure{
+    width: 40%;
+    margin-top:20px;
     float: right;
     margin:auto;
 }
@@ -84,22 +87,27 @@ footer{
     width: 100%
     height:50px;
     background-color: silver;
-   margin-top: 200px;
+   clear: both;
 
 }
 ul.forfooter{
      height: 50px;
     font-size:0; 
     line-height:0; 
-    letter-spacing:-1px;*
+    letter-spacing:-1px;
 }
 li.footer-menu {
-     font-size: 25px;
+     font-size: 20px;
      display:inline-block;
      padding-left: 40px;
+     padding-top: 20px
      
 }
-
+a.footer-link{
+    color: black;
+    font-size: 23px;
+}
 span{
-    float: right
+    float: right;
+    margin-left:0px;
 }
